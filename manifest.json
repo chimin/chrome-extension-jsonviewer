@@ -1,0 +1,19 @@
+{
+    "name": "Simple JSON Viewer",
+    "version": "1.0",
+    "description": "Format the JSON in the browser",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "dist/content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "images/json.png"
+    }
+}
